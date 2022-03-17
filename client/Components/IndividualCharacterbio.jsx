@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 
 const IndividualCharacterbio = (props) => {
-  // console.log('IndividualCharacterbio', props)
+  console.log('IndividualCharacterbio', props)
   // console.log('props.character.character.name', props.character.character.name)
   // useEffect(() => {
   //   if (props.show === false) {
@@ -18,8 +18,9 @@ const IndividualCharacterbio = (props) => {
             <div>Alias? :{props.character.character.biography.aliases}</div>
             <div>Home Base :{props.character.character.work.base}</div>
             <div>Occupation :{props.character.character.work.occupation}</div>
-            <div>Affiliation :{props.character.character.connections['group-affilliation']}</div>
+            <div>Affiliation :{props.character.character.connections['group-affiliation']}</div>
           </div>
+          <br/>
           <div className='power'>
             <div>POWER/STATS</div>
             <div>Combat :{props.character.character.powerstats.combat}</div>

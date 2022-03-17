@@ -36,9 +36,10 @@ const AddPlayer = () => {
         <label>
         <input type='text'
         value={name}
+        placeholder='Find your legend...'
         onChange={(e)=>handleInputName(e)}/>
          </label>
-        <button onClick={(e)=>addMarvelorDC(e)}>ADD MARVEL/DC PLAYER INFO</button>
+        <button onClick={(e)=>addMarvelorDC(e)}>ADD MARVEL/DC/SURPRISE PLAYER INFO</button>
         </form>
       </div>
     </div>
