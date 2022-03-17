@@ -17,7 +17,7 @@ Once the project moves into development, the press release can be used as a touc
  -->
 
 ## Heading ##
-  Marvel Haven
+  Comic Lover's Haven
 
 ## Sub-Heading ##
   > Made for marvel universe fan, users can review favorite character information and create their own characters.
@@ -26,10 +26,10 @@ Once the project moves into development, the press release can be used as a touc
   > Get character info of your favorite marvel legend, create your virtual collection of favorites and make your own!
 
 ## Problem ##
-  > Not many sites available to.
+  > Not many sites have a comprehensive list of comic characters including both DC and Marvel Comics.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > Users can now come to one place to get info on their favorite superhero...or villian!
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
