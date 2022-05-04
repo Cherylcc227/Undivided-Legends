@@ -23,55 +23,88 @@ const SpecialEdition = ()=> {
     <div id='bge1'>
       <h2>*SPECIAL EDITION BGE1*</h2>
       <h3>RELEASE DATE........APRIL 1, 2022</h3>
-      <div>Allie  :
+      <div>
+        <li>Allie</li>
         <img id='bgePhoto' src={Allie}/>
       </div>
-      <div>Alex  :
+      <br/>
+      <div>
+        <li>Alex</li>
         <img id='bgePhoto' src={Alex}/>
       </div>
-      <div>Amy  :
+      <br/>
+      <div>
+        <li>Amy</li>
         <img id='bgePhoto' src={Amy}/>
       </div>
-      <div>Andy  :
+      <br/>
+      <div>
+        <li>Andy</li>
         <img id='bgePhoto' src={Andy}/>
       </div>
-      <div>Austin  :
+      <br/>
+      <div>
+        <li>Austin</li>
         <img id='bgePhoto' src={Austin}/>
       </div>
-      <div>BJ  :
+      <br/>
+      <div>
+        <li>BJ</li>
         <img id='bgePhoto' src={BJ}/>
       </div>
-      <div>Bo  :
+      <br/>
+      <div>
+      <li>Bo</li>
         <img id='bgePhoto' src={Bo}/>
       </div>
-      <div>Cheryl  :
+      <br/>
+      <div>
+      <li>Cheryl</li>
         <img id='bgePhoto' src={Cheryl}/>
       </div>
-      <div>Jenny  :
+      <br/>
+      <div>
+      <li>Jenny</li>
         <img id='bgePhoto' src={Jenny}/>
       </div>
-      <div>Jesse  :
+      <br/>
+      <div>
+      <li>Jesse</li>
         <img id='bgePhoto' src={Jesse}/>
       </div>
-      <div>John  :
+      <br/>
+      <div>
+      <li>John</li>
         <img id='bgePhoto' src={John}/>
       </div>
-      <div>Katie  :
+      <br/>
+      <div>
+      <li>Katie</li>
         <img id='bgePhoto' src={Katie}/>
       </div>
-      <div>Kenneth  :
+      <br/>
+      <div>
+      <li>Kenneth</li>
         <img id='bgePhoto' src={Kenneth}/>
       </div>
-      <div>Nick  :
+      <br/>
+      <div>
+      <li>Nic</li>
         <img id='bgePhoto' src={Nick}/>
       </div>
-      <div>Richard  :
+      <br/>
+      <div>
+      <li>Richard</li>
         <img id='bgePhoto' src={Richard}/>
       </div>
-      <div>Tobin  :
+      <br/>
+      <div>
+      <li>Tobin</li>
         <img id='bgePhoto' src={Tobin}/>
       </div>
-      <div>Yuriy  :
+      <br/>
+      <div>
+      <li>Yuriy</li>
         <img id='bgePhoto' src={Yuriy}/>
       </div>
     </div>

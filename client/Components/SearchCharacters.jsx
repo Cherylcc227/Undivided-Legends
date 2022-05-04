@@ -16,7 +16,7 @@ const SearchCharacters = (props) => {
             <div>
              <img id="charImg" src={props.character.image.url}/>
             </div>
-            <div>
+            <div id="charInfo">
               <li>Name: {props.character.biography['full-name']}</li>
               <button onClick={()=>setShow(true)}>Character Deets</button>
             </div>

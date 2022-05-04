@@ -6,13 +6,14 @@ const port = process.env.PORT || 3000;
 const {getCharacters} = require ("../helpers/marvel")
 const {getCharacterByName} = require ("../helpers/superhero");
 const {find} = require("../database")
+// const compression = require ("compression")
 
 const DIST_DIR = path.join(__dirname, "dist");
 const HTML_FILE = path.join(DIST_DIR, "index.html");
 
+// app.use(compression)
 app.use(express.json());
 app.use(express.static(__dirname + "/../client/dist"));
-
 
 
 app.post('/marvelORdc', async (req, res) => {

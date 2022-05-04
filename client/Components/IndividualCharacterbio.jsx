@@ -1,4 +1,6 @@
 import React, {useState, useEffect} from 'react';
+import 'animate.css';
+
 
 const IndividualCharacterbio = (props) => {
   console.log('IndividualCharacterbio', props)
@@ -10,7 +12,7 @@ const IndividualCharacterbio = (props) => {
   // },[props.show]);
   return (
     <div>
-      <div className='IndividualCharacterbio'>
+      <div id='IndividualCharacterbio' class="animate__animated animate__backInLeft">
         <div>{props.character.character.name}</div>
         <div className='characterCard'>
           <div>
@@ -24,13 +26,15 @@ const IndividualCharacterbio = (props) => {
           <div className='power'>
             <div>POWER/STATS</div>
             <div>Combat :{props.character.character.powerstats.combat}</div>
-            <div>Durabpty :{props.character.character.powerstats.durabpty}</div>
-            <div>Intepgence :{props.character.character.powerstats.intepgence}</div>
+            <div>Durability :{props.character.character.powerstats.durability}</div>
+            <div>Intelligence :{props.character.character.powerstats.intelligence}</div>
             <div>Power :{props.character.character.powerstats.power}</div>
             <div>Speed :{props.character.character.powerstats.speed}</div>
             <div></div>Strength :{props.character.character.powerstats.strength}</div>
           </div>
-        <button onClick={()=>props.setShow(false)}>Back</button>
+          {/* <div class="animate__animated animate__rollOut"> */}
+            <button onClick={()=>props.setShow(false)}>Back</button>
+          {/* </div> */}
         </div>
       </div>
 

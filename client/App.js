@@ -31,8 +31,6 @@ const App = () => {
     <AppProvider>
       <h1 id="pageHeading">Undivided Legends </h1>
       <div className="navBar">
-        <p>USER PLACEHOLDER</p>
-        {/* <AddPlayer characterList={characterList} setCharacterList={setCharacterList}/> */}
         <AddPlayer/>
         <AppProvider/>
         <CreatePlayer/>
